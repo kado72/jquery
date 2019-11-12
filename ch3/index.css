@@ -1,0 +1,22 @@
+p{
+    color: red;
+    display:none;
+}
+
+img{
+    width: 64x;
+    height: 64px;
+    float: left;
+}
+
+.thumb{
+    display: contents;
+}
+
+.error{
+    background:  #ee0000;
+    color: rgb(255, 255, 255);
+}
+.alert{
+    color:green;
+}

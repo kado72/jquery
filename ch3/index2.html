@@ -1,0 +1,40 @@
+<!-- ギモン
+一度更新されないことにはこれらの記述は反映されないが、反映するにはどうするべきか
+-->
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="index2.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+  <form>
+    商品キーワード<br>
+    <input type='text' name='gword' id='gword' size='50'>
+    <br><br>
+    価格<br>
+      <input type='text' name='lprice' value='1000' class='price' id='lprice'>円〜
+      <input type='text' name='hprice' value='5000' class='price' id='hprice'>円〜
+      <span class='alert'></span>
+    <br><br>
+    <fieldset>
+      <legend>
+        <input type='checkbox' name='qcheck' id='qcheck'>絞り込む
+      </legend>
+      色を選んでください<br>
+      <input type='radio' name='gcolor' value='color1' checked>暖色系
+      <input type='radio' name='gcolor' value='color2'>寒色系
+      <input type='radio' name='gcolor' value='color3'>モノトーン系
+      <br><br>
+      サイズを選んでください<br>
+      <input type='radio' name='gsize' value='S' checked>S
+      <input type='radio' name='gsize' value='M'>M
+      <input type='radio' name='gsize' value='L'>L
+    </fieldset>
+    <br><br>
+    <input type='submit' value='検索する'>
+  </form>
+</body>
+<script src='index2.js'>
+</script>
+</html>

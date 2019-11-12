@@ -1,0 +1,40 @@
+<!-- ギモン
+一度更新されないことにはこれらの記述は反映されないが、反映するにはどうするべきか
+-->
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+</body>
+<form>
+  名前を入力してください(必須)<br>
+  <input type='text' name='uname' id='uname'>
+  <span class='alert'></span>  <br>
+
+  性別を選択してください(必須) <br>
+  男性<input type='radio' name='sex' value='男性' class='sex'>
+  女性<input type='radio' name='sex' value='女性' class='sex'>
+  <span class='alert'></span>  <br><br>
+
+
+  メールアドレスを入力してください
+  <input type='text' name='uemail' size='50' id='uemail'>
+  <span class='alert'></span><br>
+
+  郵便番号を入力してください (ハイフン抜き)
+  <input type='text' name='uzip' size='7' id='uzip'>
+  <span class='alert'></span><br>
+
+  住所を入力してください
+  <textarea name='uaddress' cos='50' rows='3' id='uaddress'></textarea>
+  <span class='alert'></span><br><br>
+
+  <input type='submit' value='登録する'>
+  <span id='success'></span>
+</form>
+
+<script src='index.js'>
+</script>
+</html>
